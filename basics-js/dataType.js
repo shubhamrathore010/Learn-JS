@@ -36,7 +36,7 @@ let age = 21
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId);
+// console.log(id === anotherId);
 
 
 const binNumber = 123232343n  //  BingInt Number representasion
@@ -53,10 +53,35 @@ const myFunction = function() {
 
 
 
-console.log(typeof anotherId);
+// console.log(typeof anotherId);
 //  console.log(typeof myFunction);  // => function
 // console.log(typeof myObj);
 // console.log(typeof id);  => Symbol
 // console.log(typeof heros); // => Object
 
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+// Stack (Primitive), Heap (Non-Primitive)
+// stack providee copy of variable data
+
+// Heap provide actualDAta  Data update with actual data
+
+let firstname = "shubham"
+
+let lastname = firstname
+lastname = "Rathore"
+
+// console.log(firstname);
+// console.log(lastname);
+
+let userONe = {
+    email: "userONe@gmail.com",
+    upi: "user@ybl"
+}
+let userTwo = userONe
+
+userTwo.email = "userTwo@google.com"
+
+// console.log(userONe);
+console.log(userONe.email);
+console.log(userTwo.email);
