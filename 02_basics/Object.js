@@ -126,7 +126,6 @@ const person1 = {
     eyeColor: "blue"
   };
   
-
   const man = Object.create(person1);
   man.firstName = "Peter";
 
