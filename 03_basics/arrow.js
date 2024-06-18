@@ -26,13 +26,14 @@
 
 // chai()
 
+// +++++ Arrow function =====
+
 // const chai = () =>{
 //     let name = "Shubham"
 //     console.log(this.name);
 // }
 // chai()
 
-// +++++ Arrow function =====
 
 // const  addtwo = (num1, num2) => {
     
@@ -71,5 +72,14 @@
 // ((name) =>{
 //     console.log(`unnamed iife ${name}`);
 // })("Chai");
+
+//  const  chai = ()=>{
+//  console.log("Arrowa chai");
+// }
+
+// chai() 
+
+// const Chai = () => ({name: "Shubham"})
+// console.log(Chai());
 
 
